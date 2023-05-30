@@ -96,9 +96,18 @@
       <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
       <a class="button" href="#">Поиск гостиницы в Седоне</a>
     </main>
-      <section class="subscription">
-        <h2>Подпишитесь на рассылку</h2>
+    <footer>
+      <section class="newsletter">
+        <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label for="newsletter-email">Ваш e-mail</label>
+          <input class="field" placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
+            <button class="button newsletter-button" type="submit">
+              <span class="button-newsletter">Подписаться</span>
+            </button>
+        </form>
       </section>
+    </footer>
   </body>
 </html>
