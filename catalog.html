@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
       <nav class="navigation">
-      <a class="main-header-logo" href="#">
-        <img src="#" width="140" height="70" alt="Логотип Седоны">
+      <a class="main-header-logo" href="index.html">
+        <img src="images/header/logo.svg" width="140" height="70" alt="Логотип Седоны">
       </a>
       <ul class="navigation-list">
         <li class="navigation-item">
@@ -27,6 +28,7 @@
             <span class="visually-hidden">
               Поиск
             </span>
+            <img src="images/header/search.svg" width="24" height="24" alt="иконка поиска">
           </a>
         </li>
         <li class="navigation-item">
@@ -34,6 +36,7 @@
             <span class="visually-hidden">
               Нравится
             </span>
+            <img src="images/header/like.svg" width="24" height="24" alt="иконка нравится">
           </a>
         </li>
         <li class="navigation-item button">
@@ -115,18 +118,21 @@
         <!--Кнопки для изменения вида карточек-->
         <a class="button" href="#">
           <span class="visually-hidden">Показать карточки сеткой</span>
+          <img class="view" src="images/view/viev-1.svg" alt="иконка вида">
         </a>
         <a href="#" class="button button-light">
           <span class="visually-hidden">Показать карточки по одной</span>
+          <img class="view" src="images/view/view-2.svg" alt="иконка вида">
         </a>
         <a class="button" href="#">
           <span class="visually-hidden">Показать карточки списком </span>
+          <img class="view" src="images/view/view-3.svg" alt="иконка вида">
         </a>
       </select>
       <ul class="card-list">
         <li class="card-list-item">
           <a class="card-list-link" href="#">
-            <img class="product-card-image" src="#" alt="Звездное небо Amara Resort & Spa в ночи">
+            <img class="product-card-image" src="images/catalog/hotel-1.jpg" alt="Звездное небо Amara Resort & Spa в ночи">
             <h3 class="product-card-title">Amara Resort & Spa</h3>
           </a>
           <p class="card-price">
@@ -139,10 +145,11 @@
           </button>
           <span class="visually-hidden">Уровень рейтинга</span>
           <span class="rating">Рейтинг: 8,5</span>
+          <img class="rating-star" src="images/star/star-4.svg" alt="4 звезды">
         </li>
         <li class="card-list-item">
           <a class="card-list-link" href="#">
-            <img class="product-card-image" src="#" alt="Небо Villas at Poco Diablo в сумерках после дождя">
+            <img class="product-card-image" src="images/catalog/hotel-2.jpg" alt="Небо Villas at Poco Diablo в сумерках после дождя">
             <h3 class="product-card-title">Villas at Poco Diablo</h3>
           </a>
           <p class="card-price">
@@ -155,10 +162,11 @@
           </button>
           <span class="visually-hidden">Уровень рейтинга</span>
           <span class="rating">Рейтинг: 9,2</span>
+          <img class="rating-star" src="images/star/star-4.svg" alt="4 звезды">
         </li>
         <li class="card-list-item">
           <a class="card-list-link" href="#">
-            <img class="product-card-image" src="#" alt="Вид на коньон Desert Quail Inn">
+            <img class="product-card-image" src="images/catalog/hotel-3.jpg" alt="Вид на коньон Desert Quail Inn">
             <h3 class="product-card-title">Desert Quail Inn</h3>
           </a>
           <p class="card-price">
@@ -171,10 +179,11 @@
           </button>
           <span class="visually-hidden">Уровень рейтинга</span>
           <span class="rating">Рейтинг: 6,9</span>
+          <img class="rating-star" src="images/star/star-3.svg" alt="3 звезды">
         </li>
         <li class="card-list-item">
           <a class="card-list-link" href="#">
-            <img class="product-card-image" src="#" alt="Вид на коньон GreenTree Inn">
+            <img class="product-card-image" src="images/catalog/hotel-4.jpg" alt="Вид на коньон GreenTree Inn">
             <h3 class="product-card-title">GreenTree Inn</h3>
           </a>
           <p class="card-price">
@@ -187,6 +196,7 @@
           </button>
           <span class="visually-hidden">Уровень рейтинга</span>
           <span class="rating">Рейтинг: 6,9</span>
+          <img class="rating-star" src="images/star/star-2.svg" alt="2 звезды">
         </li>
       </ul>
     </section>
@@ -229,16 +239,19 @@
           <li class="footer-social-item">
             <a class="button" href="https://vk.com/htmlacademy">
               <span class="visually-hidden">Вконтакте</span>
+              <img class="logo-academy" src="images/social/vk.svg" alt="ссылка В контакте">
             </a>
           </li>
           <li class="footer-social-item">
             <a class="button" href="https://t.me/htmlacademy">
-              <span class="visually-hidden">Телеграмм</span>
+              <span class="visually-hidden">Телеграм</span>
+              <img class="logo-academy" src="images/social/telegram.svg" alt="ссылка телеграм">
             </a>
           </li>
           <li class="footer-social-item">
             <a class="button" href="https://www.youtube.com/user/htmlacademyru">
               <span class="visually-hidden">Ютуб</span>
+              <img class="logo-academy" src="images/social/youtube.svg" alt="ссылка Ютуб">
             </a>
           </li>
         </ul>
@@ -246,7 +259,7 @@
         <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
       </address>
         <a class="policy-logo-academy" href="https://htmlacademy.ru/">
-          <img class="logo-academy" src="#" alt="Логотип Академии HTML">
+          <img class="logo-academy" src="images/social/logo_html.svg"Логотип Академии HTML">
         </a>
       </section>
     </footer>
