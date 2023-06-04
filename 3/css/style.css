@@ -1,0 +1,13 @@
+body{
+  background-image:url("../images/hero.jpg");
+}
+
+.search-hotels{
+  background-image:url("../images/subscribe.jpg");
+  width: 1200px;
+  height: 415px;
+}
+
+.main-catalog-header{
+  background-image:url("../images/filter.jpg");
+}
