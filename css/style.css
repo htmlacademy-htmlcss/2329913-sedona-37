@@ -16,8 +16,8 @@
 
 body{
   font-family: "PT Sans", sans-serif;
-  font-size: 18px;
-  line-height: 117%;
+  font-size: 22px;
+  line-height: 118%;
   color: #333333;
   background-color:#FFFFFF;
 
@@ -51,6 +51,12 @@ body{
   text-align: center;
 }
 
+.advantages-list p{
+  font-size: 18px;
+  line-height: 117%;
+  text-align: center;
+}
+
 .advantages-title{
   font-family: "PT Sans";
   font-size: 24px;
@@ -70,10 +76,21 @@ body{
   text-decoration: none;
 }
 
-.search-hotels{
+.page-footer-title{
+  font-family: "PT Sans";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 120%;
   text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
 }
-.search-hotels{
+
+.page-footer-title-catalog{
+  color:#000000;
+}
+
+.newsletter{
   background-image:url("../images/subscribe.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -90,4 +107,43 @@ body{
   text-align: center;
   text-decoration: none;
   color:#000000;
+}
+
+.main-catalog{
+  background-image:url("../images/filter.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  color:#FFFFFF;
+}
+
+.card-list, a{
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  color:#000000;
+}
+
+.product-card-title{
+  font-size: 24px;
+  line-height: 117%;
+  text-decoration: none;
+}
+
+.filter-view-title{
+  font-family: "PT Sans";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+  color:#000000;
+}
+
+.newsletter-catalog{
+  text-align: center;
+}
+
+.card-price span{
+  font-size: 18px;
+  line-height: 117%;
 }

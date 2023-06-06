@@ -111,24 +111,27 @@
         <button class="button button-reset" type="reset">Сбросить</button>
       </form>
       </section>
-      <select class="select-control" aria-label="Сортировка">
-        <option value="popular">Сначала дешёвые</option>
-        <option value="cheap">Сначала популярные</option>
-        <option value="expensive">Сначала дорогие</option>
-        <!--Кнопки для изменения вида карточек-->
-        <a class="button" href="#">
-          <span class="visually-hidden">Показать карточки сеткой</span>
-          <img class="view" src="images/view/viev-1.svg" alt="иконка вида">
-        </a>
-        <a href="#" class="button button-light">
-          <span class="visually-hidden">Показать карточки по одной</span>
-          <img class="view" src="images/view/view-2.svg" alt="иконка вида">
-        </a>
-        <a class="button" href="#">
-          <span class="visually-hidden">Показать карточки списком </span>
-          <img class="view" src="images/view/view-3.svg" alt="иконка вида">
-        </a>
-      </select>
+      <div class="filter-view">
+        <p class="filter-view-title">Найдено гостиниц: 38</p>
+        <select class="select-control" aria-label="Сортировка">
+          <option value="popular">Сначала дешёвые</option>
+          <option value="cheap">Сначала популярные</option>
+          <option value="expensive">Сначала дорогие</option>
+          <!--Кнопки для изменения вида карточек-->
+          <a class="button" href="#">
+            <span class="visually-hidden">Показать карточки сеткой</span>
+            <img class="view" src="images/view/viev-1.svg" alt="иконка вида">
+          </a>
+          <a href="#" class="button button-light">
+            <span class="visually-hidden">Показать карточки по одной</span>
+            <img class="view" src="images/view/view-2.svg" alt="иконка вида">
+          </a>
+          <a class="button" href="#">
+            <span class="visually-hidden">Показать карточки списком </span>
+            <img class="view" src="images/view/view-3.svg" alt="иконка вида">
+          </a>
+        </select>
+    </div>
       <ul class="card-list">
         <li class="card-list-item">
           <a class="card-list-link" href="#">
@@ -222,8 +225,9 @@
     </ul>
     </main>
     <footer>
-      <section class="newsletter">
-        <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
+      <section class="newsletter-catalog">
+        <h2 class="visually-hidden">Подписка на рассылку</h2>
+        <p class="page-footer-title page-footer-title-catalog">Подпишитесь на рассылку</p>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="newsletter-email">Ваш e-mail</label>
@@ -231,6 +235,8 @@
             <button class="button newsletter-button" type="submit">
               <span class="button-newsletter">Подписаться</span>
             </button>
+        </form>
+      </section>
         </form>
       </section>
       <section class="footer-contacts">
